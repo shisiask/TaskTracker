@@ -1,0 +1,26 @@
+# Task Tracker - Git Ignore File
+
+# Ignore the tasks data file (user-specific)
+tasks.json
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
